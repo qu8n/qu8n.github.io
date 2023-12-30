@@ -1,4 +1,4 @@
-import Image from 'next/image'
+import { ExternalLink } from './ExternalLink'
 
 /**
  * @param text Text to display
@@ -6,13 +6,11 @@ import Image from 'next/image'
  */
 export function LinkText({ text, href }: { text: string; href: string }) {
   return (
-    <a
+    <ExternalLink
       href={href}
-      target='_blank'
-      rel='noopener noreferrer'
       className='underline decoration-neutral-500 text-white'
     >
       {text}
-    </a>
+    </ExternalLink>
   )
 }

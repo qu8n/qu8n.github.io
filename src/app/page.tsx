@@ -23,13 +23,13 @@ export default function Home() {
           </div>
 
           <div>
-            Outside of work, I&apos;m attending a part-time Master&apos;s
-            program (MCIT) at{' '}
+            Outside of work, I&apos;m attending a part-time Master&apos;s (MCIT)
+            at{' '}
             <LinkButton
               text='Penn Engineering'
-              href='https://www.mskcc.org/'
+              href='https://www.cis.upenn.edu/graduate/program-offerings/master-of-computer-and-information-technology/'
               imgSrc='/logos/penn.png'
-              imgDimTw='w-2.5 h-3.5'
+              imgDimTw='w-3 h-3.5'
             />
             , where I focus on software systems and machine learning.
           </div>
@@ -43,14 +43,6 @@ export default function Home() {
             />
             .
           </p>
-        </section>
-
-        <section className='flex flex-col gap-2'>
-          <h2>Select work</h2>
-        </section>
-
-        <section className='flex flex-col gap-2'>
-          <h2>Connect</h2>
         </section>
       </div>
     </main>
