@@ -1,6 +1,7 @@
 import { BgGradient } from '@/components/BgGradient'
 import { LinkButton } from '@/components/LinkButton'
 import { LinkText } from '@/components/LinkText'
+import { StarlightButton } from '@/components/StarlightButton'
 
 export default function Home() {
   return (
@@ -43,6 +44,19 @@ export default function Home() {
             />
             .
           </p>
+        </section>
+
+        <section className='mt-2 flex flex-row gap-4'>
+          <StarlightButton
+            text='See my GitHub projects'
+            href='https://github.com/qu8n'
+            withStarlight
+          />
+
+          <StarlightButton
+            text='Connect on LinkedIn'
+            href='https://www.linkedin.com/in/nguyenhq/'
+          />
         </section>
       </div>
     </main>
