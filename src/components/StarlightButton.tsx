@@ -1,4 +1,3 @@
-// Star effect credit to Julien Thibeaut (https://www.julienthibeaut.xyz/)
 import { ExternalLink } from './ExternalLink'
 
 export function StarlightButton({

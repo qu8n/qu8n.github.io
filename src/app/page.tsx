@@ -10,7 +10,10 @@ export default function Home() {
         <BgGradient />
 
         <section className='flex flex-col gap-4 font-extralight text-sm leading-relaxed'>
-          <h1 className='font-medium text-xl'>Hi, I&apos;m Quan 👋</h1>
+          <div className='font-medium text-xl inline-flex gap-2'>
+            <div className='animate-rotational-wave'>👋</div>
+            <h1>Hi, I&apos;m Quan</h1>
+          </div>
 
           <div>
             I currently work as a software engineer at{' '}

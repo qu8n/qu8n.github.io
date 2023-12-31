@@ -1,3 +1,4 @@
+// Animation/effect credits to Julien Thibeaut (https://www.julienthibeaut.xyz/)
 import type { Config } from 'tailwindcss'
 
 const config: Config = {
@@ -16,6 +17,7 @@ const config: Config = {
       animation: {
         flip: 'flip 6s infinite steps(2, end)',
         rotate: 'rotate 3s linear infinite both',
+        'rotational-wave': 'rotational-wave 2s ease-in-out 2',
       },
       keyframes: {
         flip: {
@@ -26,6 +28,23 @@ const config: Config = {
         rotate: {
           to: {
             transform: 'rotate(90deg)',
+          },
+        },
+        'rotational-wave': {
+          '0%': {
+            transform: 'rotate(0deg)',
+          },
+          '25%': {
+            transform: 'rotate(10deg)',
+          },
+          '50%': {
+            transform: 'rotate(-10deg)',
+          },
+          '75%': {
+            transform: 'rotate(10deg)',
+          },
+          '100%': {
+            transform: 'rotate(0deg)',
           },
         },
       },
