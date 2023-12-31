@@ -21,7 +21,7 @@ export function LinkButton({
   return (
     <ExternalLink
       href={href}
-      className='inline items-center gap-x-1 rounded-md bg-neutral-800 border border-neutral-600 px-1 py-0.5 text-white text-xs font-normal focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-slate-600'
+      className='inline items-center gap-1 rounded-md bg-neutral-800 border border-neutral-600 hover:bg-neutral-700 duration-500 p-1 text-white text-xs font-normal focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-slate-600'
     >
       <div className='inline-flex align-middle gap-1'>
         <div className={`relative ${imgDimTw}`}>
