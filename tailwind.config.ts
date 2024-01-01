@@ -17,7 +17,7 @@ const config: Config = {
       animation: {
         flip: 'flip 6s infinite steps(2, end)',
         rotate: 'rotate 3s linear infinite both',
-        'rotational-wave': 'rotational-wave 2s ease-in-out 2',
+        'rotational-wave': 'rotational-wave 1s ease-in-out 2',
       },
       keyframes: {
         flip: {
@@ -35,13 +35,13 @@ const config: Config = {
             transform: 'rotate(0deg)',
           },
           '25%': {
-            transform: 'rotate(10deg)',
+            transform: 'rotate(30deg)',
           },
           '50%': {
-            transform: 'rotate(-10deg)',
+            transform: 'rotate(-20deg)',
           },
           '75%': {
-            transform: 'rotate(10deg)',
+            transform: 'rotate(30deg)',
           },
           '100%': {
             transform: 'rotate(0deg)',
