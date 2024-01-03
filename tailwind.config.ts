@@ -18,6 +18,7 @@ const config: Config = {
         flip: 'flip 6s infinite steps(2, end)',
         rotate: 'rotate 3s linear infinite both',
         'rotational-wave': 'rotational-wave 1s ease-in-out 2',
+        'rotate-360': 'rotate-360 5s linear infinite',
       },
       keyframes: {
         flip: {
@@ -45,6 +46,14 @@ const config: Config = {
           },
           '100%': {
             transform: 'rotate(0deg)',
+          },
+        },
+        'rotate-360': {
+          '0%': {
+            transform: 'rotate(0deg)',
+          },
+          '100%': {
+            transform: 'rotate(360deg)',
           },
         },
       },
